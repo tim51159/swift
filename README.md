@@ -138,7 +138,7 @@ compiler crashes.
   $ tar -xzf swift-LOCAL-YYYY-MM-DD-a-osx-symbols.tar.gz -C ~/
 ```
 
-2. Specify the local toolchain for Xcode's use via `Xcode->Toolchains`.
+2. Specify the local toolchain for X-Code's use via `Xcode->Toolchains`.
 
 ### Build Failures
 
@@ -147,12 +147,12 @@ Try the suggestions in
 
 Make sure you are using the
 [correct release](/docs/HowToGuides/GettingStarted.md#installing-dependencies)
-of Xcode.
+of X-Code.
 
 If you have changed Xcode versions but still encounter errors that appear to
 be related to the Xcode version, try passing `--clean` to `build-script`.
 
-When a new version of Xcode is released, you can update your build without
+When a new version of X-Code is released, you can update your build without
 recompiling the entire project by passing `--reconfigure` to `build-script`.
 
 ## Learning More
